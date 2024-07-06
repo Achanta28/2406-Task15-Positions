@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #parent {
+        width: 500px;
+        height: 500px;
+        background-color: aqua;
+        border: 2px solid red;
+        position: relative;
+      }
+      #child {
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+        border: 2px solid black;
+        position: absolute;
+        bottom: 80px;
+        right: 80px;
+      }
+
+      #parentimg {
+        width: 500px;
+        height: 500px;
+      }
+      #childimg {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <img id="parentimg" src="./images/mukesh.jpg" />
+      <div id="child">
+        <img id="childimg" src="./images/akash.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
